@@ -3,6 +3,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -13,8 +14,10 @@ public class TC_007 {
 		
 	@BeforeMethod
 	public void Initialise() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Aditya.Kumar\\Downloads\\com.roi.selenium\\Resources\\chromedriver.exe");
-		Driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		ChromeOptions ChromeOptions = new ChromeOptions();
+		ChromeOptions.addArguments("--headless", "--no-sandbox");
+		Driver = new ChromeDriver(ChromeOptions);
 		Driver.get("http://10.120.101.74:8088/ROI_UI/index.html#/wizard");
 		Thread.sleep(7000);
 		Driver.manage().window().maximize();
