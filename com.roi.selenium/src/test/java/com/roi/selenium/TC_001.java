@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import junit.framework.Assert;
 
 public class TC_001 {
-	
+	//For demo pupose
 	WebDriver Driver;
 	String ExpectedURL="http://10.120.101.74:8088/ROI_UI/index.html#/wizard";
 	
