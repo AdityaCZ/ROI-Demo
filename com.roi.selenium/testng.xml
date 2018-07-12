@@ -5,11 +5,11 @@
     <classes> 
       <class name="com.roi.selenium.TC_001"/>
       <class name="com.roi.selenium.Demo1"/>
-      <class name="com.roi.selenium.TC_003"/>
+     <!-- <class name="com.roi.selenium.TC_003"/>
       <class name="com.roi.selenium.TC_004"/>
       <class name="com.roi.selenium.TC_005"/>
       <class name="com.roi.selenium.TC_006"/>
-      <class name="com.roi.selenium.TC_007"/>
+      <class name="com.roi.selenium.TC_007"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
