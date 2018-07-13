@@ -55,6 +55,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<successCodes>1</successCodes>
 				</configuration>
 			</plugin>
 		</plugins>
