@@ -37,7 +37,7 @@ public void test() throws InterruptedException {
 //	s1.selectByIndex(2);
 	Thread.sleep(2000);
 	//Test case failed here
-	Driver.findElement(By.xpath("HERE.//div/div[1]/p/span")).click();	
+	Driver.findElement(By.xpath(".//div/div[1]/p/span")).click();	
 	Thread.sleep(4000);
 	Driver.findElement(By.xpath("//table/tbody/tr[2]/td[1]")).click();
 	Thread.sleep(4000);
