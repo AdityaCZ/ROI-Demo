@@ -27,8 +27,8 @@
 
 	<properties>
 		<sonar.sources>
-			src/test/java/com/roi/demoTCs/Demo1.java,src/test/java/com/roi/demoTCs/TC_001.java,src/test/java/com/roi/demoTCs/TC_003.java,src/test/java/com/roi/demoTCs/TC_004.java,src/test/java/com/roi/demoTCs/TC_005.java,src/test/java/com/roi/demoTCs/TC_006.java,src/test/java/com/roi/demoTCs/TC_007.java</sonar.sources>
-		<sonar.test.exclusions>src/test/java/com/roi/demoTCs/Demo1.java,src/test/java/com/roi/demoTCs/TC_001.java,src/test/java/com/roi/demoTCs/TC_003.java,src/test/java/com/roi/demoTCs/TC_004.java,src/test/java/com/roi/demoTCs/TC_005.java,src/test/java/com/roi/demoTCs/TC_006.java,src/test/java/com/roi/demoTCs/TC_007.java</sonar.test.exclusions>
+			src/test/java/com/roi/selenium/Demo1.java,src/test/java/com/roi/selenium/TC_001.java,src/test/java/com/roi/selenium/TC_003.java,src/test/java/com/roi/selenium/TC_004.java,src/test/java/com/roi/selenium/TC_005.java,src/test/java/com/roi/selenium/TC_006.java,src/test/java/com/roi/selenium/TC_007.java</sonar.sources>
+		<sonar.test.exclusions>src/test/java/com/roi/selenium/Demo1.java,src/test/java/com/roi/selenium/TC_001.java,src/test/java/com/roi/selenium/TC_003.java,src/test/java/com/roi/selenium/TC_004.java,src/test/java/com/roi/selenium/TC_005.java,src/test/java/com/roi/selenium/TC_006.java,src/test/java/com/roi/selenium/TC_007.java</sonar.test.exclusions>
 
 
 	</properties>
