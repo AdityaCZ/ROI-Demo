@@ -32,7 +32,10 @@ public void test() throws InterruptedException {
 	Thread.sleep(3000);
 	Driver.findElement(By.xpath(".//div/input[@id='Appname']")).sendKeys("ABC");
 	Driver.findElement(By.xpath(".//*[@id='AppID']")).sendKeys("123654");
-
+//	Select s = new Select(Driver.findElement(By.xpath("//div/button[@data-id='tech']")));
+//	s.selectByIndex(2);
+//	Select s1 = new Select(Driver.findElement(By.xpath("//div/button[@data-id='bc']")));
+//	s1.selectByIndex(2);
 	Thread.sleep(2000);
 	//Test case failed here
 	Driver.findElement(By.xpath("HERE.//div/div[1]/p/span")).click();	
