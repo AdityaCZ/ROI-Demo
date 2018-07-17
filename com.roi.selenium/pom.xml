@@ -5,7 +5,7 @@
 	<groupId>com.roi</groupId>
 	<artifactId>com.roi.selenium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Demo project for ROI automation</name>
+	<name>ROI</name>
 	<description>Demo project for ROI automation</description>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
