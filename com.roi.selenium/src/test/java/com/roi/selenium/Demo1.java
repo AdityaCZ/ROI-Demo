@@ -3,12 +3,9 @@ package com.roi.selenium;
 //Selenium automation script to Test ROI Web Application
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -30,6 +27,7 @@ public void Initialise() throws InterruptedException {
 @Test
 public void test() throws InterruptedException {
 	//Demo purpose comment
+	
 	Thread.sleep(3000);
 	Driver.findElement(By.xpath(".//div/input[@id='Appname']")).sendKeys("ABC");
 	Driver.findElement(By.xpath(".//*[@id='AppID']")).sendKeys("123654");
