@@ -1,5 +1,6 @@
 package com.roi.selenium;
 
+//Selenium automation script to Test ROI Web Application
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
